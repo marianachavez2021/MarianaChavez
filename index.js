@@ -161,7 +161,7 @@ app.put("/students/:code", (request, response) => {
   response.status(200).send(exampleData);
 });
 
-app.delete("/students", (request, response) => {
+app.delete("/students/:code", (request, response) => {
   //Pendiente
 })
 
