@@ -161,6 +161,10 @@ app.put("/students/:code", (request, response) => {
   response.status(200).send(exampleData);
 });
 
+app.delete("/students", (request, response) => {
+  //Pendiente
+})
+
 //app.use(express.urlencoded({ extended: false }))
 app.listen(3000, function () {
   console.log("Cool Zone in port 3000!");
