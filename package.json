@@ -9,6 +9,7 @@
   "author": "Angel Caceres",
   "license": "ISC",
   "dependencies": {
+    "@mysql.js/mysql": "^0.8.0",
     "express": "^4.17.1"
   }
 }
